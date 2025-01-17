@@ -5,7 +5,7 @@ import pickle
 import streamlit as st
 
 #load the model
-with open("survival_model.sav", "rb") as file:
+with open("survival_model.pkl", "rb") as file:
     loaded_model = pickle.load(file)
 
 def survival(input_data):
