@@ -26,7 +26,7 @@ def main():
     
     # Input values from the user
     Pclass = st.text_input("Enter Pclass (1, 2, 3)", value="1")
-    Sex = st.text_input("Enter Sex of a person (1:male or 2:female)", value="1")
+    Sex = st.text_input("Enter Sex of a person (1:male or 0:female)", value="1")
     Age = st.text_input("Enter Age of the person (0-80)", value="25")
     SibSp = st.text_input("Enter SibSp (0-5)", value="0")
     Parch = st.text_input("Enter Parch (0-6)", value="0")
